@@ -11,9 +11,9 @@ const themeIcon = themeBtn.querySelector('img');
 themeBtn.addEventListener('click', () => {
   document.body.classList.toggle('dark-theme')
   if(document.body.classList.contains('dark-theme')){
-    themeIcon.src = '/js/img/2.svg'
+    themeIcon.src = '/img/2.svg'
   }else{
-    themeIcon.src = '/js/img/moon-svgrepo-com.svg';
+    themeIcon.src = '/img/moon-svgrepo-com.svg';
   }
 })
 
