@@ -13,7 +13,7 @@ themeBtn.addEventListener('click', () => {
   if(document.body.classList.contains('dark-theme')){
     themeIcon.src = 'img/2.svg'
   }else{
-    themeIcon.src = 'img/moon-svgrepo-com.svg';
+    themeIcon.src = 'img/3.svg';
   }
 })
 
